@@ -6,7 +6,8 @@ export const TodoProvider = ({ children }) => {
   const [filter, setFilter] = useState("all");
 
   useEffect(() => {
-    setTodos(JSON.parse(localStorage.getItem("todos", JSON.stringify) || []));
+    const storedTodos = JSON.parse(localStorage.getItem("todos")) || [];
+    setTodos(storedTodos);
   }, []);
 
   const addTodo = (todo) => {
