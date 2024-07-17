@@ -1,8 +1,23 @@
-# React + Vite
+# ContactEase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+this is a simple todo app create with react
 
-Currently, two official plugins are available:
+## Visit the page here: [Page](https://todo-app-nickgv.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- React: JavaScript library for building user interfaces.
+- localStorage: Web API for saving and retrieving data in the browser.
+- TailwindCss
+
+## Getting Started
+
+To get started with ContactEase, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Start the development server with `npm run dev`.
+4. Access the application in your web browser at `http://localhost:3000`.
+
+
+
